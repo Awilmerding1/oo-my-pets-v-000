@@ -19,9 +19,9 @@ end
 def initialize(species)
   @species = species 
   @@all << self
-  :dogs = []
-  :fishes = []
-  :cats = []
+  @dogs = []
+  @fishes = []
+  @cats = []
 end
 
 def say_species
@@ -35,6 +35,7 @@ end
 def buy_fish(name)
   new_fish = Fish.new(name)
   @fishes << new_fish
+  
 end
 
 
