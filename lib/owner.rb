@@ -1,4 +1,4 @@
-require 'pry'
+require
 
 class Owner
 attr_accessor :name, :pets
@@ -7,7 +7,6 @@ attr_reader :species
 @@all = []
 
 def self.all 
-  @@all
 end
 
 def self.count 
