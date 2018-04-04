@@ -63,7 +63,7 @@ def feed_fish
 end
 
 def sell_pets
-  self.pets.values 
+  array = self.pets.values.flatten 
   
   self.pets.clear
 end
