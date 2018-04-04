@@ -56,5 +56,10 @@ def play_with_cats
   end
 end
 
+def feed_fish
+  self.pets[:fishes].map do |fish|
+    fish.mood = "happy"
+  end
+end
 
 end
