@@ -65,3 +65,6 @@ end
 def sell_pets
   self.pets.clear
 end
+
+
+end
