@@ -45,8 +45,7 @@ def buy_dog(name)
 end
 
 def walk_dogs
-  self.pets.map do |pets|
-    pets.map do |d
+  self.pets[:dogs]
 end
 
 end
