@@ -70,5 +70,8 @@ def sell_pets
   self.pets.clear
 end
 
-
+def list_pets
+  "I have #{self.pets[:fishes].count} fish"
+end
+  
 end
