@@ -21,7 +21,7 @@ end
 def initialize(species)
   @species = species 
   @@all << self
-  @pets =  {fishes: [], dogs: [], cats: []}
+  @pets = {fishes: [], dogs: [], cats: []}
 end
 
 def say_species
@@ -31,7 +31,7 @@ end
 
 def buy_fish(name)
   new_fish = Fish.new(name)
-  @fishes << new_fish
+  self.pets[fishes] << new_fish
   self.pets 
   binding.pry
 end
