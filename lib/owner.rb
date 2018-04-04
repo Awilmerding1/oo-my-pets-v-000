@@ -44,4 +44,8 @@ def buy_dog(name)
   self.pets[:dogs] << new_dog
 end
 
+def walk_dogs
+  
+end
+
 end
