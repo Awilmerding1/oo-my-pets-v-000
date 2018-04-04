@@ -63,11 +63,5 @@ def feed_fish
 end
 
 def sell_pets
-  array = self.pets.values
-    array.map do |pet_arrays|
-    pet_arrays.map do |pet_list|
-      pet_list
-  end
-end
-end
+  self.pets.clear
 end
