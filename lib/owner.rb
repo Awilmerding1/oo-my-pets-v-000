@@ -63,6 +63,8 @@ def feed_fish
 end
 
 def sell_pets
+  self.pets.values 
+  
   self.pets.clear
 end
 
