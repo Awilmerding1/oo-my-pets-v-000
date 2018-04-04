@@ -64,7 +64,7 @@ end
 
 def sell_pets
   self.pets.each do |pet_type|
-    pet_type.map do |pet|
+    pet_type.each do |pet|
       pet.mood = "nervous"
     end
   end
