@@ -29,7 +29,7 @@ def say_species
 end
 
 def pets
-  pet_hash = {fishes: [], dogs: [], cat: []}
+  pet_hash = {fishes: [], dogs: [], cats: []}
 end
 
 end
