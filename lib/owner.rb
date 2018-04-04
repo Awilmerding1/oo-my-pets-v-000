@@ -63,7 +63,11 @@ def feed_fish
 end
 
 def sell_pets
-  self.pets
+  self.pets.map do |pets|
+    pets.map do |pet|
+      pet.mood = "nervous"
+    end
+  end
 end
 
 end
