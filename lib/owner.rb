@@ -66,8 +66,8 @@ def sell_pets
   self.pets.map do |pet_type|
     pet_type.map do |pet|
       pet.mood = "nervous"
+      binding.pry
     end
-    binding.pry
   end
 end
 
