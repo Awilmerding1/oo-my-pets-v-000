@@ -68,6 +68,7 @@ def sell_pets
       pet.mood = "nervous"
     end
   end
+  binding.pry
 end
 
 end
