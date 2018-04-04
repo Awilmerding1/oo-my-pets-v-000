@@ -21,9 +21,7 @@ end
 def initialize(species)
   @species = species 
   @@all << self
-  @dogs = []
-  @fishes = []
-  @cats = []
+  @pets
 end
 
 def say_species
