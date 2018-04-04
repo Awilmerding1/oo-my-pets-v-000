@@ -64,7 +64,9 @@ end
 
 def sell_pets
   array = self.pets.values.flatten 
-  
+  array.map do |pet_names|
+    pet_names.mood = "nervous"
+  end
   self.pets.clear
 end
 
