@@ -21,16 +21,13 @@ end
 def initialize(species)
   @species = species 
   @@all << self
-  @pets
+  @pets =  {fishes: [], dogs: [], cats: []}
 end
 
 def say_species
   "I am a #{self.species}."
 end
 
-def pets
-  pet_hash = {fishes: [], dogs: [], cats: []}
-end
 
 def buy_fish(name)
   new_fish = Fish.new(name)
