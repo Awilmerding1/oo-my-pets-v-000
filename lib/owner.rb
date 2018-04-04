@@ -33,7 +33,7 @@ def pets
 end
 
 def buy_fish(name)
-  new_fish = .new(name)
+  new_fish = Fish.new(name)
   self.
 
 end
