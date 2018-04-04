@@ -1,5 +1,5 @@
 class Owner
-attr_accessor :name
+attr_accessor :name, :pets
 attr_reader :species 
 
 @@all = []
@@ -31,5 +31,8 @@ end
 def pets
   pet_hash = {fishes: [], dogs: [], cats: []}
 end
+
+def buy_fish(name)
+  self.
 
 end
