@@ -36,7 +36,7 @@ def buy_fish(name)
   new_fish = Fish.new(name)
   @fishes << new_fish
   self.pets 
-  binding.pru
+  binding.pry
 end
 
 
