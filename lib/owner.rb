@@ -64,8 +64,9 @@ end
 
 def sell_pets
   array = self.pets.values
-  array.map do |pets|
-    pets.mood = "nervous"
+  pet_mood = array.map do |pets|
+  end
+    pet_mood.mood = "nervous"
   end
 end
 
